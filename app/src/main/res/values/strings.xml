@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Saudi Arabia Tour Guide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="airport">Airport</string>
+    <string name="desert">Desert</string>
+    <string name="mosque">Mosque</string>
+    <string name="waterfall">Waterfall</string>
+    <string name="landscape">Landscape</string>
+    <string name="hotel">Hotel</string>
+    <string name="beach">Beach</string>
+    <string name="museum">Museum</string>
+
+</resources>

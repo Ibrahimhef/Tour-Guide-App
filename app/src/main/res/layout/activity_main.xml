@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/airport"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp"
+                android:src="@drawable/airport"/>
+
+            <ImageView
+                android:id="@+id/hotels"
+                android:src="@drawable/hotel"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp" />
+
+            <ImageView
+                android:id="@+id/beaches"
+                android:src="@drawable/beach"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/landscape"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="16dp"
+                android:src="@drawable/landscape" />
+            <ImageView
+
+                android:src="@drawable/saudi"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp"
+                />
+
+            <ImageView
+                android:id="@+id/waterfall"
+                android:src="@drawable/waterfall"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/museums"
+                android:src="@drawable/museum"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp" />
+
+            <ImageView
+                android:id="@+id/mosque"
+                android:src="@drawable/mosque"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp" />
+
+            <ImageView
+                android:id="@+id/desert"
+                android:src="@drawable/desert"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

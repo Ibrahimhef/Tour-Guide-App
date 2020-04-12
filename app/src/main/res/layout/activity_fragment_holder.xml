@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentHolder">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontal_scroll_view"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+        <LinearLayout
+            android:background="@android:color/holo_green_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="8">
+
+            <TextView
+                android:id="@+id/airport_cat"
+                style="@style/fragment_cat"
+                android:text="@string/airport" />
+
+            <TextView
+                android:id="@+id/museums_cat"
+                style="@style/fragment_cat"
+                android:text="@string/museum"/>
+
+            <TextView
+                android:id="@+id/mosque_cat"
+                style="@style/fragment_cat"
+                android:text="@string/mosque"/>
+
+            <TextView
+                android:id="@+id/waterfall_cat"
+                style="@style/fragment_cat"
+                android:text="@string/waterfall"/>
+
+            <TextView
+                android:id="@+id/desert_cat"
+                style="@style/fragment_cat"
+                android:text="@string/desert"/>
+
+            <TextView
+                android:id="@+id/hotels_cat"
+                style="@style/fragment_cat"
+                android:text="@string/hotel"/>
+
+            <TextView
+                android:id="@+id/beaches_cat"
+                style="@style/fragment_cat"
+                android:text="@string/beach"/>
+
+            <TextView
+                android:id="@+id/landscape_cat"
+                style="@style/fragment_cat"
+                android:text="@string/landscape"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <fragment
+        android:layout_below="@+id/horizontal_scroll_view"
+        android:id="@+id/fragment_space"
+        android:name="com.example.tourguideapp.Airport"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</RelativeLayout>
